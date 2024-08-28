@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_lightsail_instance" "server" {
-  name = "webserver"
+  name = "wordpress"
   availability_zone = "us-east-1a"
   blueprint_id = "debian_12"
   bundle_id = "nano_win_3_0"
